@@ -47,7 +47,7 @@ class BasePage:
         else:
             try:
                 return self._procurar(locator).is_displayed()
-            # Não encontrou o elemento
+            # Não encontrou o elementot
             except NoSuchElementException:
                 return False  # não encontrou o elemento
-            # return True         # encontrou o elemento
+            # return True    # encontrou o elemento
